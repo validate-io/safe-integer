@@ -20,7 +20,7 @@ console.log( isSafeInteger( Math.pow( 2, 53 ) ) );
 console.log( isSafeInteger( NaN ) );
 // returns false
 
-console.log( isSafeInteger( Infinity ) );
+console.log( isSafeInteger( Number.POSITIVE_INFINITY ) );
 // returns false
 
 console.log( isSafeInteger( '3' ) );
