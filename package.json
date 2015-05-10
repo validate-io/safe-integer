@@ -26,19 +26,32 @@
     "validate.io",
     "validate",
     "validation",
-    "validator"
+    "validator",
+    "valid",
+    "integer",
+    "isinteger",
+    "is",
+    "safe",
+    "safeinteger",
+    "issafe",
+    "number"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/safe-integer/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "compute-const-max-safe-integer": "^1.0.0",
+    "compute-const-min-safe-integer": "^1.0.0",
+    "validate.io-integer": "^1.0.5"
+  },
   "devDependencies": {
     "chai": "2.x.x",
-    "mocha": "2.x.x",
     "coveralls": "^2.11.1",
     "istanbul": "^0.3.0",
     "jshint": "2.x.x",
-    "jshint-stylish": "^1.0.0"
+    "jshint-stylish": "^1.0.0",
+    "mocha": "2.x.x",
+    "proxyquire": "^1.4.0"
   },
   "licenses": [
     {
