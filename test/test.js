@@ -60,6 +60,7 @@ describe( 'validate.io-safe-integer', function tests() {
 			Number.NEGATIVE_INFINITY,
 			Math.pow( 2, 53 ),
 			Math.PI,
+			new Number( 3 ),
 			{},
 			[],
 			function(){}
@@ -94,6 +95,7 @@ describe( 'validate.io-safe-integer', function tests() {
 			Number.NEGATIVE_INFINITY,
 			Math.pow( 2, 53 ),
 			Math.PI,
+			new Number( 3 ),
 			{},
 			[],
 			function(){}

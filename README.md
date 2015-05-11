@@ -59,6 +59,9 @@ console.log( isSafeInteger( NaN ) );
 console.log( isSafeInteger( Number.POSITIVE_INFINITY ) );
 // returns false
 
+console.log( isSafeInteger( new Number( 3 ) ) );
+// returns false
+
 console.log( isSafeInteger( '3' ) );
 // returns false
 ```
